@@ -1,0 +1,63 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "94523008e97b6a8577f5af6c2dc04028a5dbe3f6ce9bf0312fecf52a25f646a7"
+    },
+    {
+      "guid" : "94523008e97b6a8577f5af6c2dc0402848fc414833fcb5960d964f69fd698ec2"
+    },
+    {
+      "guid" : "94523008e97b6a8577f5af6c2dc04028115f3b482ca0abdc99ce6f29d6e92068"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator14.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Build/Products",
+      "derivedDataPath" : "/Users/brookebrewer/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/brookebrewer/Library/Developer/Xcode/DerivedData/Scrumdinger-ehzxhadqmxqrqrdmpclwckcofegu/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/brookebrewer/Library/Developer/Xcode/DerivedData/Scrumdinger-ehzxhadqmxqrqrdmpclwckcofegu/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone13,3",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "14.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "D45D2CFB-DEE2-45D0-B6EF-673B3F9C1C15",
+          "TARGET_DEVICE_MODEL" : "iPhone13,3",
+          "TARGET_DEVICE_OS_VERSION" : "14.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

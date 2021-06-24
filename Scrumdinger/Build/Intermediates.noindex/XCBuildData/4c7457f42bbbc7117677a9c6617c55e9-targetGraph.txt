@@ -1,6 +1,0 @@
-Target dependency graph (3 targets)
-Scrumdinger in Scrumdinger
-ScrumdingerTests in Scrumdinger, depends on:
-Scrumdinger in Scrumdinger (explicit)
-ScrumdingerUITests in Scrumdinger, depends on:
-Scrumdinger in Scrumdinger (explicit)

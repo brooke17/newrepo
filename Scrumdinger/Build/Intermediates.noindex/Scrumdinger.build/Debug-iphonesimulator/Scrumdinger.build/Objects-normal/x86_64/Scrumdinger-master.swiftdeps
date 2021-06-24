@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
-options: "a09d3e16523114f833f8a2d73c841865"
-build_time: [1624377340, 947604000]
-inputs:
-  "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/MeetingView.swift": [1624377333, 25093658]
-  "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/ScrumdingerApp.swift": [1624290866, 593428450]

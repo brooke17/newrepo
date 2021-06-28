@@ -16,6 +16,7 @@
 		22DCB14F268385EE00D3981F /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCB14E268385EE00D3981F /* DailyScrum.swift */; };
 		22DCB1512683887200D3981F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCB1502683887200D3981F /* CardView.swift */; };
 		22DCB1552684D1FC00D3981F /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCB1542684D1FC00D3981F /* Color+Codable.swift */; };
+		22DCB1572684F7B300D3981F /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCB1562684F7B300D3981F /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		22DCB14E268385EE00D3981F /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		22DCB1502683887200D3981F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		22DCB1542684D1FC00D3981F /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		22DCB1562684F7B300D3981F /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				22DCB1292680ECFC00D3981F /* Preview Content */,
 				22DCB14E268385EE00D3981F /* DailyScrum.swift */,
 				22DCB1502683887200D3981F /* CardView.swift */,
+				22DCB1562684F7B300D3981F /* ScrumsView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22DCB1262680ECF800D3981F /* MeetingView.swift in Sources */,
+				22DCB1572684F7B300D3981F /* ScrumsView.swift in Sources */,
 				22DCB14F268385EE00D3981F /* DailyScrum.swift in Sources */,
 				22DCB1512683887200D3981F /* CardView.swift in Sources */,
 				22DCB1552684D1FC00D3981F /* Color+Codable.swift in Sources */,

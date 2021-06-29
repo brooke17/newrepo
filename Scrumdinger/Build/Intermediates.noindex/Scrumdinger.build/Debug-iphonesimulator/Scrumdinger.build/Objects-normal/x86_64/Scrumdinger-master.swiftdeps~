@@ -1,10 +1,11 @@
 version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
 options: "a09d3e16523114f833f8a2d73c841865"
-build_time: [1624557227, 967972000]
+build_time: [1624894135, 95484000]
 inputs:
   "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/MeetingView.swift": [1624377333, 25093658]
-  "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/ScrumsView.swift": [1624557227, 715784179]
-  "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/DailyScrum.swift": [1624461555, 242917439]
+  "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/ScrumsView.swift": [1624893423, 13746284]
+  "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/DailyScrum.swift": [1624557639, 572696886]
+  "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/DetailView.swift": [9223372036, 854775807]
   "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/CardView.swift": [1624545054, 243610635]
   "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/Color+Codable.swift": [1607619832, 0]
-  "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/ScrumdingerApp.swift": [1624290866, 593428450]
+  "/Users/brookebrewer/Documents/aa--not class related/Appstyx/gitProject/Scrumdinger/Scrumdinger/ScrumdingerApp.swift": [1624893423, 86599921]

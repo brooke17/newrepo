@@ -25,20 +25,21 @@ class ScrumData: ObservableObject{
     
     func load(){
         DispatchQueue.global(qos: .background).async{[weak self] in
-            guard let data = try? Data(contentsOf: Self.fileURL) else{return}
-            #if DEBUG
-            DispatchQueue.main.async{
-                self?.scrums = DailyScrum.data
+            guard let data = try? Data(contentsOf: Self.fileURL) else{
+                #if DEBUG
+                DispatchQueue.main.async{
+                    self?.scrums = DailyScrum.data
+                }
+                #endif
+                return
             }
-            #endif
-            return
-        }
-        guard let dailyScrums = try? JSONDecoder().decode([DailyScrum].self, from: data) else{
-            fatalError("Can't decode saved scrum data.")
-        }
-        
-        DispatchQueue.main.async {
-            //self?.scrums = dailyScrums
+            guard let dailyScrums = try? JSONDecoder().decode([DailyScrum].self, from: data) else{
+                fatalError("Can't decode saved scrum data.")
+            }
+            
+            DispatchQueue.main.async {
+                self?.scrums = dailyScrums
+            }
         }
     }
     func save(){
